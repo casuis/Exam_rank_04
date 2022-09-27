@@ -2,4 +2,9 @@
 
 ## Validated 100%
 
-_don't forget to test your code with valgrind_
+_Don't forget to test your code with valgrind as with:_
+
+```
+>$ valgrind ./a.out "/usr/bin/ls" "-lRa" "|" "/usr/bin/grep" .
+```
+
