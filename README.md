@@ -38,7 +38,7 @@ Hints:
 Do not leak file descriptors!
 ```
 
-_Don't forget to test your code with valgrind as with:_
+_Don't forget to test your code with valgrind, such as:_
 
 ```
 >$ valgrind ./a.out "/usr/bin/ls" "-lRa" "|" "/usr/bin/grep" .
